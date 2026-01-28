@@ -1,23 +1,24 @@
-# RECYCLE-INTEL
+# ♻️ Recycle Intel
 
-recycle-intel/
-│
-├── backend/
-│   ├── package.json
-│   ├── .env.example
-│   ├── prisma/
-│   │   └── schema.prisma
-│   └── src/
-│       ├── server.js
-│       ├── routes/
-│       │   └── number.routes.js
-│       ├── controllers/
-│       │   └── number.controller.js
-│       └── services/
-│           └── score.service.js
-│
-└── frontend/
-    ├── index.html
-    ├── main.jsx
-    └── src/
-        └── App.jsx
+Recycle Intel é uma plataforma de inteligência para análise de risco de números telefônicos reciclados.
+
+O objetivo é ajudar empresas a evitar bloqueios e banimentos em canais como WhatsApp, SMS e Voice.
+
+## 🚀 Funcionalidades
+- Análise de risco de número
+- Score de 0 a 100
+- Classificação: Seguro / Atenção / Alto Risco
+- API REST
+- Interface Web simples para testes
+
+## 🧱 Stack
+- Node.js
+- Express
+- PostgreSQL (Prisma)
+- React
+
+## ▶️ Executar Backend
+```bash
+cd backend
+npm install
+npm run dev
