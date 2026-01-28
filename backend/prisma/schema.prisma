@@ -1,0 +1,7 @@
+model PhoneNumber {
+  id        Int      @id @default(autoincrement())
+  number    String   @unique
+  score     Int
+  status    String
+  createdAt DateTime @default(now())
+}
